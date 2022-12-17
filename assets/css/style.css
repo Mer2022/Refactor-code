@@ -1,13 +1,14 @@
+/* this is the style of the whole page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* added background color for body */
 body {
     background-color: #d9dcd6;
 }
-
+/* styled header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,18 +35,18 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* changed semantics structure to match html, changed div to nav */
+/* changed div to nav */
 header nav ul {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-/* changed semantics structure to match html, changed div to nav */
+/* changed div to nav */
 header nav ul li {
 
     margin-left: 25px;
 }
-
+/* updated as shown below to get overall cohesive look */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -203,3 +204,4 @@ p {
 .footer h4 {
     font-size: 20px;
 }
+/* completed styling */
